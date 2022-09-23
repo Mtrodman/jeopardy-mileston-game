@@ -1,0 +1,88 @@
+body {
+    background-color: #253439;
+}
+.scoreboard {
+ color: whitesmoke; 
+ text-align: right;
+  position: relative;
+  right: 100px;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 10px 10px;
+    text-align: center;
+    height: 300px;
+    
+}
+/* Table / Column Titles */
+.GameTitle {
+    color: whitesmoke;
+    text-align: center; 
+}
+.WoW {
+    background-color: #6A0DAD;
+    text-align: center;
+    border: 3px solid whitesmoke;
+   
+}
+#WoW500, #WoW400, #WoW300, #WoW200, #WoW100 {
+    background-color:#6A0DAD;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:250px;
+} 
+.MF {
+    background-color: #66FF00;
+    text-align: center;
+    border: 3px solid whitesmoke;
+}
+#MF500, #MF400, #MF300, #MF200, #MF100 {
+    background-color:#66FF00 ;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:250px;
+}
+.BO {
+    background-color: #FF6600;
+    text-align: center;
+    border: 3px solid whitesmoke;
+   
+}
+#BO500, #BO400, #BO300, #BO200, #BO100 {
+    background-color: #FF6600;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:250px;
+}
+.IW {
+    background-color: #FEFE33;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    
+}
+#IW500, #IW400, #IW300, #IW200, #IW100 {
+    background-color:  #FEFE33;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:250px;
+}
+.Van {
+    background-color: #FF0000;
+    text-align: center;
+    border: 3px solid whitesmoke;
+   
+}
+#Van500, #Van400, #Van300, #Van200, #Van100 {
+    background-color: #FF0000;
+    text-align: center;
+    border: 3px solid whitesmoke;
+    width:250px;
+}
+hover {
+    background-color: grey;
+    cursor: crosshair;
+}
+
+

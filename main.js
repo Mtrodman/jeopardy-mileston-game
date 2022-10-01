@@ -102,6 +102,7 @@ function displayQuestion(){
     option2.innerHTML= questionBank[i].option[2];
     option3.innerHTML= questionBank[i].option[3];
     stat.innerHTML= "Question"+' '+(i+1)+' '+'of'+' '+questionBank.length;
+    next.addEventListener('click',nextQuestion);
 }
 
 //function to calculate scores
@@ -114,7 +115,7 @@ function calcScore(e){
     else{
         document.getElementById(e.id).style.background= 'tomato';
     }
-    setTimeout(nextQuestion,300);
+    // setTimeout(nextQuestion,300);
 }
 
 //function to display next question

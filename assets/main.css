@@ -1,88 +1,265 @@
-body {
-    background-color: #253439;
-}
-.scoreboard {
- color: whitesmoke; 
- text-align: right;
-  position: relative;
-  right: 100px;
-}
-table {
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid whitesmoke;
-    border-radius: 10px 10px;
-    text-align: center;
-    height: 300px;
-    
-}
-/* Table / Column Titles */
-.GameTitle {
-    color: whitesmoke;
-    text-align: center; 
-}
-.WoW {
-    background-color: #6A0DAD;
-    text-align: center;
-    border: 3px solid whitesmoke;
+/* 
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded;
+  }
+  
+  body {
+    /* --hue: var(--hue-neutral); */
+    /* background-color: orangered;
+    padding: 0;
+    margin: 0;
    
-}
-#WoW500, #WoW400, #WoW300, #WoW200, #WoW100 {
-    background-color:#6A0DAD;
-    text-align: center;
-    border: 3px solid whitesmoke;
-    width:250px;
-} 
-.MF {
-    background-color: #66FF00;
-    text-align: center;
-    border: 3px solid whitesmoke;
-}
-#MF500, #MF400, #MF300, #MF200, #MF100 {
-    background-color:#66FF00 ;
-    text-align: center;
-    border: 3px solid whitesmoke;
-    width:250px;
-}
-.BO {
-    background-color: #FF6600;
-    text-align: center;
-    border: 3px solid whitesmoke;
-   
-}
-#BO500, #BO400, #BO300, #BO200, #BO100 {
-    background-color: #FF6600;
-    text-align: center;
-    border: 3px solid whitesmoke;
-    width:250px;
-}
-.IW {
-    background-color: #FEFE33;
-    text-align: center;
-    border: 3px solid whitesmoke;
-    
-}
-#IW500, #IW400, #IW300, #IW200, #IW100 {
-    background-color:  #FEFE33;
-    text-align: center;
-    border: 3px solid whitesmoke;
-    width:250px;
-}
-.Van {
-    background-color: #FF0000;
-    text-align: center;
-    border: 3px solid whitesmoke;
-   
-}
-#Van500, #Van400, #Van300, #Van200, #Van100 {
-    background-color: #FF0000;
-    text-align: center;
-    border: 3px solid whitesmoke;
-    width:250px;
-}
-hover {
-    background-color: grey;
-    cursor: crosshair;
-}
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 
+  }
+   */
+  /* body.correct {
+ 
+    background-color: green;
+  }
+  
+  body.wrong {
+  
+    background-color: red;
+  /* } */
+  /* #scoreCounter {
+    
+    font-family: 'Rye', cursive;
+    float: right;
+    padding-right: 100px;
+    color:whitesmoke;
+  }
+  #mainlogo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 100px;
+  width: 50%;
+    height: 300px;
+    width:600px;
+   padding-bottom: 50px;
+   padding-top: 20px;
+  } */ */
+  /* #scoreboard, #score {
+    display: inline-flex;
+  }
+  #score {
+    font-size: 30px;
+  }
+  .container {
+    color:whitesmoke;
+    width: 800px;
+    max-width: 80%;
+    background-color:#1c1c1c;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+  }
+  #question {
+    font-size: x-large;
+    font-family: 'Special Elite', cursive;
+  }
+  .btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  } */
+  
+  /* .btn {
+    --hue: var(--hue-neutral);
+    background-color:orangered;
+    font-family: 'Special Elite', cursive;
+  
+    border-radius: 5px;
+    padding: 5px 10px;
+    color:white;
+    outline: none;
+  }
+  
+  .btn:hover {
+    background-color: grey;
+  }
+  
+  .btn.correct {
+   background-color: green;
+  
+  } */
+  
+  /* .btn.wrong { */
+ 
+  /* background-color: red;
+  }
+  
+  .start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  #pig {
+    width: 175px;
+    height: 175px;
+    background-color: white;
+  } */
+
+/*  
+  #cow {
+    width: 175px;
+    height: 175px;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 100px;
+  } */
+   
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: orangered;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#mainlogo {
+    /* width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%; */
+    width:300px;
+    height:100px;
+}
+.img{
+    position: fixed;
+}
+#title{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: whitesmoke;
+    background: #253439;
+    font-family: 'Rye', cursive;
+    height:100px;
+   
+}
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: #253439;
+    cursor: default;
+    border-radius: 1rem;
+    font-family: 'Special Elite', cursive;
+  
+}
+#question{
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-family: 'Rye', cursive;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 15rem;
+    background: orangered;
+    color: whitesmoke;
+    border-radius: 1rem;
+}
+.option:hover{
+    color: black;
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: whitesmoke;
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: whitesmoke;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: whitesmoke;
+    background: #253439;
+    font-family: 'Special Elite', cursive;
+}
+button:active{
+    background: grey;
+}
+#scoreboard,#answerBank{
+    width: 20rem;
+    background:#253439 ;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+    color: whitesmoke;
+    font-family: 'Rye', cursive;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+    color: whitesmoke;
+}
+#answers{
+    margin-top: 1rem;
+    color: whitesmoke;
+    font-family: 'Special Elite', cursive;
+}
+h2 {
+    color: whitesmoke;
+    font-family: 'Rye', cursive;
+}
+  
+  
+  
+  
 

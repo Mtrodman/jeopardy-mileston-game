@@ -4,68 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/main.css">
-    <script src="./asset/main.js" defer></script>
-    <title>Call Of Duty Jeopardy</title>
+    <script src="main.js" defer></script>
+    <title>Lazy J Custom Meats Trivia</title>
 </head>
+<header>
+        <!-- <div id="scoreCounter">
+                <h3 id="scoreboard">Score:</h3>
+                <p id="score">0</p>       
+        </div>
+        <br>
+        <br>
+        <img id="mainlogo" src="./images/main-logo.PNG" alt="Lazy J Custom Meat Logo"> -->
+</header>
 <body>
     <body>
-        <div>
-            <h2 class = "scoreboard">Score</h2>
-        </div>
-        <table>
-        <tr>
-        <div>
-            <td colspan=5><h1 class ="GameTitle">Call of Duty Jeopardy</h1> </td>
-        </div>
-
-        </tr>
-        <tr>
-                <td><h1 class="WoW"> World at War</h1></td>
-                <td><h1 class="MF"> Modern Warfare </h1></td>
-                <td><h1 class="BO"> Black Ops</h1></td>
-                <td><h1 class="IW"> Infinte Warfare </h1></td>
-                <td><h1 class="Van" > Vanguard</h1></td>
-        </tr>
-        <tr>
-                <td id="WoW100"><h1> $100 </h1></td>
-                <td id="MF100"><h1> $100 </h1></td>
-                <td id="BO100"><h1> $100 </h1></td>
-                <td id="IW100"><h1> $100 </h1></td>
-                <td id="Van100"><h1> $100 </h1></td>
-        </tr>
-        <tr>
-                <td id="WoW200"><h1> $200 </h1></td>
-                <td id="MF200"><h1> $200 </h1></td>
-                <td id="BO200"><h1> $200 </h1></td>
-                <td id="IW200"><h1> $200 </h1></td>
-                <td id="Van200"><h1> $200 </h1></td>
-        </tr>
-        <tr>
-                <td id="WoW300"><h1> $300 </h1></td>
-                <td id="MF300"><h1> $300 </h1></td>
-                <td id="BO300"><h1> $300 </h1></td>
-                <td id="IW300"><h1> $300 </h1></td>
-                <td id="Van300"><h1> $300 </h1></td>
-        </tr>
-        <tr>
-                <td id="WoW400"><h1> $400 </h1></td>
-                <td id="MF400"><h1> $400 </h1></td>
-                <td id="BO400"><h1> $400 </h1></td>
-                <td id="IW400"><h1> $400 </h1></td>
-                <td id="Van400"><h1> $400 </h1></td>
-        </tr>
-        <tr>
-                <td id="WoW500"><h1> $500 </h1></td>
-                <td id="MF500"><h1> $500 </h1></td>
-                <td id="BO500"><h1> $500 </h1></td>
-                <td id="IW500"><h1> $500 </h1></td>
-                <td id="Van500"><h1> $500 </h1></td>
-        </tr>
-    </table>
-       
+        <!-- <div class="container">
+                <div id="questionbox" class="hide">
+                  <div id="question">Question</div>
+                  <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                  </div>
+                </div>
+                <div class="controls">
+                  <button id="start-btn" class="start-btn btn">Start</button>
+                  <button id="next-btn" class="next-btn btn hide">Next</button>
+                </div>
+              </div>
+                    
+     -->
+     <img id="mainlogo"src="./images/main-logo.PNG" alt="Lazy J Logo" id="img" class="img">
+     <h1 id="title">Lazy J Custom Meats Quiz</h1>
+ 
+     <!-- quiz-container -->
+     <div id="quiz-container">
+         <!-- question container -->
+         <div class="questions">
+             <h2 id="question"></h2>
+             <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+             </ol>
+             <h4 id="stat"></h4>
+         </div>
+ 
+         <div class="buttons">
+             <button type="button" class="next">Next</button>
+         </div>
+ 
+     </div>
+ 
+     <!-- scoreboard section -->
+     <div id="scoreboard">
+         <h2 id="score-title">Your Score</h2>
+         <h2 id="score"></h2>
+         <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+         <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+     </div>
+ 
+     <!-- answers section -->
+     <div id="answerBank">
+         <h2>Answers :</h2>
+         <ol type="1" id="answers">
+ 
+         </ol>
+         <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+     </div>
+           
       
-       
-      
+    
 </body>
 </html>

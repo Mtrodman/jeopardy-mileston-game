@@ -2,17 +2,17 @@
 //Question bank
 var questionBank= [
   {
-      question : 'Where is Lazy J Custom Meats Located ?',
+      question : 'Where is Lazy J Custom Meats Located?',
       option : ['Lyndon', 'Osage City', 'Burlingame', 'Carbondle'],
       answer : 'Osage City '
   },
   {
-      question : 'What services does Lazy J Custom Meats offer',
+      question : 'What services does Lazy J Custom Meats offer?',
       option : ['Custom Meat Processing', 'Retail Meats', 'Both Custom & Retail', 'None The Above'],
       answer : 'Both Custom & Retail'
   },
   {
-      question : 'What reatil meats do they sell',
+      question : 'What reatil meats do they sell?',
       option : ['Beef', 'Pork', 'Chicken', 'All of the Above'],
       answer : 'All of the above'
   },
@@ -57,17 +57,17 @@ var questionBank= [
       answer : 'Pork Shoulder'
   },
   {
-      question : 'How many different sections is on a chicken',
+      question : 'How many different sections is on a chicken?',
       option : ['7', '4', '5 ', '8'],
       answer : '4'
   },
   {
-      question : 'How long do you wait before processing a chicken',
+      question : 'How long do you wait before processing a chicken?',
       option : [' 6 to 8 hours', '2 hours', '5 hours', '24 hours'],
       answer : '6 to 8'
   },
   {
-      question : 'How many different sections are on a deer',
+      question : 'How many different sections are on a deer?',
       option : ['4', '10 ', '5 ', '2 '],
       answer : '4'
   },

@@ -1,0 +1,52 @@
+$color-dark: #253439;
+$color-white: whitesmoke;
+$rye: 'Rye', cursive;
+$special-elite: 'Special Elite', cursive;
+
+
+
+body {
+    background-color: $color-dark;
+}
+.GameTitle {
+    color: $color-white;
+    text-align: center; 
+    padding-top: 20px;
+    text-decoration: underline;
+    font-family: $rye;
+}
+.obj {
+    color: $color-white;
+    text-align: center;
+    font-family: $rye;
+
+}
+.objbox {
+    align-content: center;
+}
+.objlist {
+    color:$color-white;
+    font-size: x-large;
+    font-family: $special-elite;
+}
+button {
+   width:300px;
+   height:50px;
+  position: relative;
+  left:500px;    
+  font-family: $special-elite;
+
+}
+.save {
+color:black; 
+font-size: 25px;
+ text-decoration: none;
+
+}
+img {
+    width:400px;
+    height:200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

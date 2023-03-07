@@ -1,0 +1,187 @@
+@import "intro";
+
+// 10-15 SCSS variables -- COMPLETED
+// 10-15 nested selectors, with at least 2 uses of the SCSS ampersand (&) --completed
+// 3-5 SCSS mixins-- COMPLETED
+// 2-4 SCSS functions
+// 2-4 instances of SCSS flow control directives or operators --completed
+// 3-5 SCSS partial files, imported
+// One of the SCSS error-handling directives-- COMPLETED
+
+//  color variable
+$color-dark: #253439;
+$color-white: whitesmoke;
+$color-lightgrey: lightgrey;
+$color-grey: grey;
+$color-red: red;
+$color-blue: blue;
+$color-orangered: orangered;
+
+// font variables
+$rye: 'Rye', cursive;
+$special-elite:'Special Elite', cursive;
+
+
+
+@mixin title {
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: $color-white;
+    background: $color-dark;
+    font-family: $rye;
+    height:100px;
+}
+
+
+@mixin full-background {
+    background-color: $color-lightgrey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+@mixin option {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem $color-blue;
+    width: 15rem;
+    background: $color-orangered;
+    color: $color-white;
+    border-radius: 1rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  .body {
+    @include full-background;
+  }
+
+  #mainlogo {
+   
+   @debug "width:300px";
+    @debug "height:100px";
+}
+.img{
+    position: fixed;
+}
+
+#title {
+    @include title;
+}
+
+h2 {
+    color: $color-white;
+    font-family: $rye;
+}
+//buttons
+button{
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: $color-white;
+    background: $color-dark;
+    font-family: $special-elite;
+    &:active {
+        background: $color-grey;
+    }
+}
+// answer options 
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem $color-blue;
+    width: 15rem;
+    background: $color-orangered;
+    color: $color-white;
+    border-radius: 1rem;
+    &:hover {
+        color: black;
+    }
+}
+
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: $color-dark;
+    cursor: default;
+    border-radius: 1rem;
+    font-family: $special-elite;
+  
+}
+
+#question{
+    margin-bottom: 1rem;
+    color: $color-white;
+    font-family: $rye;
+}
+
+#answerBank {
+    width: 20rem;
+    background: $color-dark ;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+    &:li {
+        text-align: left;
+        margin-bottom: 0.2rem;
+        font-size: larger;
+        color: $color-white;
+    }
+}
+
+#answers{
+    margin-top: 1rem;
+    color: $color-white;
+    font-family: $special-elite;
+}
+
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: $color-white;
+}
+.buttons{
+    text-align: center;
+}
+
+// span of question answers boxes 
+$answer: option0, option1, option2, option3;
+
+@each $answer in $answer {
+  span {
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+  }
+}
+
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: $color-white;
+}
+// scoreboard 
+#scoreboard {
+    width: 20rem;
+    background: $color-dark ;
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+}

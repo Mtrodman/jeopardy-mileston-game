@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.img {
+  position: fixed;
+}
+
+#title {
+  text-align: center;
+  padding: 0.8rem 0;
+  font-size: 3rem;
+  color: whitesmoke;
+  background: #253439;
+  font-family: "Rye", cursive;
+  height: 100px;
+}
+
+h2 {
+  color: whitesmoke;
+  font-family: "Rye", cursive;
+}
+
+button {
+  padding: 0.2rem 1.5rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: 1.5rem;
+  color: whitesmoke;
+  background: #253439;
+  font-family: "Special Elite", cursive;
+}
+button:active {
+  background: grey;
+}
+
+.option {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  border-bottom: solid 0.1rem blue;
+  width: 15rem;
+  background: orangered;
+  color: whitesmoke;
+  border-radius: 1rem;
+}
+.option:hover {
+  color: black;
+}
+
+.questions {
+  margin: 3rem auto;
+  width: 90vw;
+  padding: 2rem;
+  background: #253439;
+  cursor: default;
+  border-radius: 1rem;
+  font-family: "Special Elite", cursive;
+}
+
+#question {
+  margin-bottom: 1rem;
+  color: whitesmoke;
+  font-family: "Rye", cursive;
+}
+
+#answerBank {
+  width: 20rem;
+  background: #253439;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 5rem;
+  display: none;
+}
+#answerBank:li {
+  text-align: left;
+  margin-bottom: 0.2rem;
+  font-size: larger;
+  color: whitesmoke;
+}
+
+#answers {
+  margin-top: 1rem;
+  color: whitesmoke;
+  font-family: "Special Elite", cursive;
+}
+
+#answer {
+  margin-top: 2.5rem;
+}
+
+#stat {
+  margin-top: 1.5rem;
+  color: whitesmoke;
+}
+
+.buttons {
+  text-align: center;
+}
+
+span {
+  display: block;
+  padding: 0.1rem 0.7rem;
+  border-radius: 1rem;
+}
+
+span {
+  display: block;
+  padding: 0.1rem 0.7rem;
+  border-radius: 1rem;
+}
+
+span {
+  display: block;
+  padding: 0.1rem 0.7rem;
+  border-radius: 1rem;
+}
+
+span {
+  display: block;
+  padding: 0.1rem 0.7rem;
+  border-radius: 1rem;
+}
+
+ol {
+  position: relative;
+  padding: 0 1.5rem;
+  color: whitesmoke;
+}
+
+#scoreboard {
+  width: 20rem;
+  background: #253439;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 5rem;
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

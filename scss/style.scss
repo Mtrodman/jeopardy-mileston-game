@@ -35,7 +35,7 @@ $special-elite:'Special Elite', cursive;
 
 
 @mixin full-background {
-    background-color: $color-lightgrey;
+    background-color: $color-grey;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -62,10 +62,9 @@ $special-elite:'Special Elite', cursive;
     @include full-background;
   }
 
-  #mainlogo {
-   
-   @debug "width:300px";
-    @debug "height:100px";
+  #mainlogo{
+  @debug  "width:300px";
+  @debug "height:100px";
 }
 .img{
     position: fixed;

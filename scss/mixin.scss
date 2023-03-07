@@ -1,0 +1,29 @@
+
+@mixin title {
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 3rem;
+    color: $color-white;
+    background: $color-dark;
+    font-family: $rye;
+    height:100px;
+}
+
+
+@mixin full-background {
+    background-color: $color-grey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+@mixin option {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem $color-blue;
+    width: 15rem;
+    background: $color-orangered;
+    color: $color-white;
+    border-radius: 1rem;
+}

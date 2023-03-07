@@ -1,4 +1,5 @@
-@import "intro";
+@import "mixin";
+@import "variables";
 
 // 10-15 SCSS variables -- COMPLETED
 // 10-15 nested selectors, with at least 2 uses of the SCSS ampersand (&) --completed
@@ -7,50 +8,6 @@
 // 2-4 instances of SCSS flow control directives or operators --completed
 // 3-5 SCSS partial files, imported
 // One of the SCSS error-handling directives-- COMPLETED
-
-//  color variable
-$color-dark: #253439;
-$color-white: whitesmoke;
-$color-lightgrey: lightgrey;
-$color-grey: grey;
-$color-red: red;
-$color-blue: blue;
-$color-orangered: orangered;
-
-// font variables
-$rye: 'Rye', cursive;
-$special-elite:'Special Elite', cursive;
-
-
-
-@mixin title {
-    text-align: center;
-    padding: 0.8rem 0;
-    font-size: 3rem;
-    color: $color-white;
-    background: $color-dark;
-    font-family: $rye;
-    height:100px;
-}
-
-
-@mixin full-background {
-    background-color: $color-grey;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  
-@mixin option {
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    border-bottom: solid 0.1rem $color-blue;
-    width: 15rem;
-    background: $color-orangered;
-    color: $color-white;
-    border-radius: 1rem;
-}
 
 *{
     margin: 0;

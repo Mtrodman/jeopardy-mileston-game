@@ -1,10 +1,25 @@
-Quiz Game 
-This game will test your knowledge about different processing questions over Beef, Pork, Chicken, and Deer.
+                                         Lazy J Custom Meats Quiz Game 
 
-How to play the game!
-When you get into the game it will give an intro screen that will list the game instructions. Once you proceed to the quiz it will give you a total of 15 questions. After you have answered all of the question it will show you how many questions you got correct out of 15. 
+About the game 
+    
+    This game will test you knowledge on differnt processing questions over different animals. You will be asked 15 questions that deal with processing cows, pigs, chicken, and deer. 
 
-Gamie instructions
-When entering the game an intro page will apear first with how to play. When you are ready to test your knowledge press the proceed to game button. 
-Once you are at the quiz the first question will pop up select the answer that you think is correct. Once you have selected an answer that quiz will move onto the next question until all 15 are answered. 
-After you have answered all the question it will give your score of how many answers you got correct out of 15. If you would like to see the correct answers press the check answers button. If you would like to try the quiz again press the back to quiz button and you can retake the quiz.
+What Is Needed To Run this Game
+
+    This game was coded using HTML, CSS and Javascript. When copying the githube repository link for this game you wont have to install any pages to deploy the game. If you click the link that will be displayed beloy and fork and clone this game in the code editor of your choice you will just have to right click in either the intro.html or main.html file and click on open with live server.
+
+    GitHub Link: https://github.com/Mtrodman/jeopardy-mileston-game.git
+
+How To Play The Game
+
+    When the website deployes it will bring up the introduction page and will list the objectives on how to play. 
+
+    After you have read the objectives on the introdruction page and are ready to test your knowledge and processing skills click the "Proceed To Game" button located at the bottom of the screen.
+
+    Congradulations you are now on the first question of the game, once you have read the question select which answer you think is the correct answer. If you have selected the right answer the answer box will turn green, but if you selected the wrong one it'll turn red. Once answered click the "Next" button at the bottom and repeat for the next 14 questions.
+
+    Once you have completed all 15 questions you will have the option to view the correct answers and try the quiz again. 
+
+
+Deployment
+    This application is deployed with netlify.com, with this it is linked upto the GitHub Repository for this project and thats what accuatlly deploys the  application.

@@ -2,6 +2,10 @@ Change Log
 
 March 14, 2022
 
+    Matt Rodman - Updated the Readme
+
+March 14, 2022
+
     Matt Rodman - Added a Changelog 
 
 Oct 1, 2022
